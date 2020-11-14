@@ -14,6 +14,13 @@
         <h3 class="main_text 2020S"></h3>
     </div>
 </template>
+
+<script>
+export default {
+    
+}
+</script>
+
 <style scoped>
     .main_kv {
   position: relative;

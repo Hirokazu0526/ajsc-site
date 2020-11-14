@@ -1,19 +1,39 @@
 <template>
   <div class="container">
     <myheader></myheader>
-    <mainkv></mainkv>   
-        
+    <mainkv></mainkv>  
+    <news></news>
+    <about></about>
+    <schedule></schedule>
+    <match></match>
+    <stadium></stadium>
+    <sponsor></sponsor>
+    <myfooter></myfooter>
   </div>
 </template>
 
 <script>
 import myheader from './components/myheader'
 import mainkv from './components/mainkv'
+import news from './components/news'
+import about from './components/about'
+import schedule from './components/schedule'
+import match from './components/match'
+import stadium from './components/stadium'
+import sponsor from './components/sponsor'
+import myfooter from './components/myfooter'
 
 export default {
   components: {
     myheader,
-    mainkv
+    mainkv,
+    news,
+    about,
+    schedule,
+    match,
+    stadium,
+    sponsor,
+    myfooter
   }
 }
 </script>
@@ -40,7 +60,7 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 .container {
-  height: 100vh;
+  /* height: 100vh; */
   background: #02001c;
   background: -webkit-gradient(linear, left top, right top, color-stop(21%, #001b27), color-stop(50%, #003001), color-stop(79%, #2b0000), to(#160000));
   background: linear-gradient(90deg, #001b27 21%, #003001 50%, #2b0000 79%, #160000 100%);
